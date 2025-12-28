@@ -1,0 +1,121 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/nonghu/list",
+    "pages/nonghu/add-or-update",
+    "pages/nonghu/detail",
+    "pages/zhudepinzhong/list",
+    "pages/zhudepinzhong/add-or-update",
+    "pages/zhudepinzhong/detail",
+    "pages/zhushemianji/list",
+    "pages/zhushemianji/add-or-update",
+    "pages/zhushemianji/detail",
+    "pages/huanjingtiaojian/list",
+    "pages/huanjingtiaojian/add-or-update",
+    "pages/huanjingtiaojian/detail",
+    "pages/shengzhuxinxi/list",
+    "pages/shengzhuxinxi/add-or-update",
+    "pages/shengzhuxinxi/detail",
+    "pages/jiankangjilu/list",
+    "pages/jiankangjilu/add-or-update",
+    "pages/jiankangjilu/detail",
+    "pages/chengzhangdengji/list",
+    "pages/chengzhangdengji/add-or-update",
+    "pages/chengzhangdengji/detail",
+    "pages/jibingdengji/list",
+    "pages/jibingdengji/add-or-update",
+    "pages/jibingdengji/detail",
+    "pages/zhiwu/list",
+    "pages/zhiwu/add-or-update",
+    "pages/zhiwu/detail",
+    "pages/siliaozhonglei/list",
+    "pages/siliaozhonglei/add-or-update",
+    "pages/siliaozhonglei/detail",
+    "pages/siliaoxinxi/list",
+    "pages/siliaoxinxi/add-or-update",
+    "pages/siliaoxinxi/detail",
+    "pages/siliaochuku/list",
+    "pages/siliaochuku/add-or-update",
+    "pages/siliaochuku/detail",
+    "pages/siliaoruku/list",
+    "pages/siliaoruku/add-or-update",
+    "pages/siliaoruku/detail",
+    "pages/fangyijihua/list",
+    "pages/fangyijihua/add-or-update",
+    "pages/fangyijihua/detail",
+    "pages/dongwujianyi/list",
+    "pages/dongwujianyi/add-or-update",
+    "pages/dongwujianyi/detail",
+    "pages/newstype/list",
+    "pages/newstype/add-or-update",
+    "pages/newstype/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "common/linkOthers/linkOthers"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "生猪养殖信息化管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#E4E4E4",
+    "selectedColor": "#AFF3F5",
+    "borderStyle": "white",
+    "backgroundColor": "#219BE8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shengzhuxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "生猪信息"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "通知公告"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
